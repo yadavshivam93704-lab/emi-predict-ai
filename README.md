@@ -77,8 +77,11 @@ streamlit run app/app.py
 This project is built as part of a FinTech AI system to demonstrate:
 
 ✔ Financial risk modeling
+
 ✔ Machine learning pipeline
+
 ✔ Model tracking with MLflow
+
 ✔ Loan decision automation
 
 ---
@@ -86,4 +89,5 @@ This project is built as part of a FinTech AI system to demonstrate:
 ## 👨‍💻 Author
 
 Shivam Yadav
+
 Batch - DS-C-WE-E-B74 
