@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+*.pyo
+
+venv/
+.venv/
+env/
+
+.ipynb_checkpoints/
+
+# Ignore ML artifacts
+mlruns/
+mlflow.db
+
+# Ignore models
+models/*.pkl
+models/*.ipynb
+
+# Ignore large datasets but keep scripts
+Data/*.csv
+Data/*.xlsx
+
+# OS junk
+.DS_Store
+Thumbs.db
