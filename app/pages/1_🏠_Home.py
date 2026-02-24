@@ -1,16 +1,30 @@
 import streamlit as st
 
-st.title("🏦 EMI Predict AI Platform")
-
+# ---- CENTER EVERYTHING ----
 st.markdown("""
-### Welcome to EMI Predict AI
+<div style='text-align:center; margin-top:40px;'>
 
-This platform helps:
+<h1>🏦 EMI Predict AI Platform</h1>
 
-- Predict EMI eligibility using ML
-- Estimate safe EMI amount
-- Explore financial datasets
-- Monitor model performance
+<h3>Welcome to EMI Predict AI</h3>
 
-Use the sidebar to navigate.
-""")
+<br>
+
+<h2>What this platform does for you</h2>
+
+<p style='font-size:18px;'>
+<strong>Predict EMI eligibility using Machine Learning</strong><br>
+Our model evaluates your financial health to determine if taking a loan is safe.
+</p>
+
+<p style='font-size:18px;'>
+<strong>Estimate a safe EMI amount</strong><br>
+We calculate an EMI that keeps your finances stable and stress-free.
+</p>
+
+<br>
+
+<p style='font-size:16px;'>Use the sidebar to start your prediction.</p>
+
+</div>
+""", unsafe_allow_html=True)
